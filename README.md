@@ -1,2 +1,2 @@
-# putting-models-to-the-secure-coding-test
-Code examples to support a series on Security Labs
+# Putting models to the secure coding test
+This is the code created for the research for a series on [Security Labs](https://securitylabs.datadoghq.com/). This code was created soley by coding agents and should not be referenced as good coding examples. 

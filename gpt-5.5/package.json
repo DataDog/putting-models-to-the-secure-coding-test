@@ -1,0 +1,23 @@
+{
+  "name": "document-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small document portal with login, upload, search, comments, profiles, and admin user management.",
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm run dev -w apps/api\" \"npm run dev -w apps/web\"",
+    "build": "npm run build -w apps/web",
+    "start": "npm run start -w apps/api",
+    "db:init": "npm run db:init -w apps/api",
+    "db:seed-admin": "npm run db:seed-admin -w apps/api"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

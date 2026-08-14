@@ -1,0 +1,33 @@
+Component,Origin,License,Copyright
+@prisma/client@6.19.3,https://www.npmjs.com/package/@prisma/client,Apache-2.0,Copyright (c) 2019-present Prisma Data Inc.
+@vitejs/plugin-react@6.0.3,https://www.npmjs.com/package/@vitejs/plugin-react,MIT,"Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors"
+bcrypt@5.1.1,https://www.npmjs.com/package/bcrypt,MIT,Copyright (c) 2010 Nicholas Campbell
+bcrypt@6.0.0,https://www.npmjs.com/package/bcrypt,MIT,Copyright (c) 2010 Nicholas Campbell
+bcryptjs@2.4.3,https://www.npmjs.com/package/bcryptjs,MIT,Copyright (c) 2012 Nevins Bartolomeo <nevins.bartolomeo@gmail.com>
+bcryptjs@3.0.3,https://www.npmjs.com/package/bcryptjs,BSD-3-Clause,Copyright (c) 2012 Nevins Bartolomeo <nevins.bartolomeo@gmail.com>
+cookie-parser@1.4.7,https://www.npmjs.com/package/cookie-parser,MIT,Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>
+cors@2.8.6,https://www.npmjs.com/package/cors,MIT,Copyright (c) 2013 Troy Goode <troygoode@gmail.com>
+dotenv@16.6.1,https://www.npmjs.com/package/dotenv,BSD-2-Clause,Copyright (c) 2015 Scott Motte
+dotenv@17.4.2,https://www.npmjs.com/package/dotenv,BSD-2-Clause,Copyright (c) 2015 Scott Motte
+express@4.22.2,https://www.npmjs.com/package/express,MIT,Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>; Copyright (c) 2013-2014 Roman Shtylman; Copyright (c) 2014-2015 Douglas Christopher Wilson
+express@5.2.1,https://www.npmjs.com/package/express,MIT,Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>; Copyright (c) 2013-2014 Roman Shtylman; Copyright (c) 2014-2015 Douglas Christopher Wilson
+express-rate-limit@7.5.1,https://www.npmjs.com/package/express-rate-limit,MIT,Copyright (c) 2021 Nathan Friedly and express-rate-limit contributors
+express-session@1.19.0,https://www.npmjs.com/package/express-session,MIT,Copyright (c) 2010 Sencha Inc.
+file-type@22.0.1,https://www.npmjs.com/package/file-type,MIT,Copyright (c) Sindre Sorhus <sindresorhus@gmail.com>
+helmet@7.2.0,https://www.npmjs.com/package/helmet,MIT,"Copyright (c) 2012-2024 Evan Hahn, Adam Baldwin"
+helmet@8.3.0,https://www.npmjs.com/package/helmet,MIT,"Copyright (c) 2012-2024 Evan Hahn, Adam Baldwin"
+jsonwebtoken@9.0.3,https://www.npmjs.com/package/jsonwebtoken,MIT,Copyright (c) 2015 Auth0 Inc. <support@auth0.com>
+lucide-react@1.24.0,https://www.npmjs.com/package/lucide-react,ISC,Copyright (c) 2020 Lucide Contributors
+morgan@1.11.0,https://www.npmjs.com/package/morgan,MIT,Copyright (c) 2010 Sencha Inc.; 2011 LearnBoost; 2011-2017 TJ Holowaychuk; 2014-2017 Douglas Christopher Wilson
+multer@2.2.0,https://www.npmjs.com/package/multer,MIT,Copyright (c) 2014 Hage Yaapa <http://www.hacksparrow.com>
+nodemailer@9.0.3,https://www.npmjs.com/package/nodemailer,MIT-0,Copyright (c) 2011-2023 Andris Reinman
+pg@8.22.0,https://www.npmjs.com/package/pg,MIT,Copyright (c) 2010-2021 Brian Carlson
+react@18.3.1,https://www.npmjs.com/package/react,MIT,Copyright (c) Meta Platforms Inc. and affiliates
+react@19.2.7,https://www.npmjs.com/package/react,MIT,Copyright (c) Meta Platforms Inc. and affiliates
+react-dom@18.3.1,https://www.npmjs.com/package/react-dom,MIT,Copyright (c) Meta Platforms Inc. and affiliates
+react-dom@19.2.7,https://www.npmjs.com/package/react-dom,MIT,Copyright (c) Meta Platforms Inc. and affiliates
+react-router-dom@7.18.1,https://www.npmjs.com/package/react-router-dom,MIT,Copyright (c) Remix Software Inc.
+uuid@11.1.1,https://www.npmjs.com/package/uuid,MIT,Copyright (c) 2010-2020 Robert Kieffer and other contributors
+vite@8.1.4,https://www.npmjs.com/package/vite,MIT,"Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors"
+zod@3.25.76,https://www.npmjs.com/package/zod,MIT,Copyright (c) 2020 Colin McDonnell
+zod@4.4.3,https://www.npmjs.com/package/zod,MIT,Copyright (c) 2020 Colin McDonnell

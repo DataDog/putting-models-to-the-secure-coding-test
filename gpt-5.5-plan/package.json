@@ -1,0 +1,21 @@
+{
+  "name": "document-portal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A document portal with authentication, uploads, search, comments, and admin user management.",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace server",
+    "dev:client": "npm run dev --workspace client",
+    "dev:server": "npm run dev --workspace server",
+    "build": "npm run build --workspace client",
+    "test": "npm run test --workspace server",
+    "start": "npm run start --workspace server"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

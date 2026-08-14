@@ -1,0 +1,19 @@
+{
+  "name": "document-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Document portal with auth, file upload, search, and comments",
+  "scripts": {
+    "install:all": "scfw run npm install && scfw run npm install --prefix backend && scfw run npm install --prefix frontend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "db:migrate": "npm run db:migrate --prefix backend",
+    "db:seed": "npm run db:seed --prefix backend",
+    "start": "npm run start --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

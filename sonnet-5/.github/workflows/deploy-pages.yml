@@ -1,0 +1,42 @@
+name: Deploy frontend to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'client/**'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # client/ is plain static HTML/CSS/JS with no build step. GitHub Pages
+      # only serves static files — it cannot host the Express API or
+      # Postgres. Deploy server/ separately and set client/js/config.js's
+      # API_BASE_URL (or inject window.__DOCUMENT_PORTAL_API_BASE_URL__
+      # before app.js loads) to point at that backend before this runs.
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: client
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
