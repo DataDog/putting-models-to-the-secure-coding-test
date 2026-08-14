@@ -1,0 +1,146 @@
+:root {
+  color-scheme: light dark;
+  --border: #d0d5dd;
+  --danger: #b42318;
+  --success: #067647;
+  --accent: #175cd3;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header#nav {
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1.5rem;
+}
+
+header#nav nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+main#app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 480px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+}
+
+input,
+textarea,
+select {
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+  width: fit-content;
+}
+
+button.danger {
+  border-color: var(--danger);
+  background: var(--danger);
+}
+
+button.link-button {
+  background: none;
+  border: none;
+  color: var(--accent);
+  text-decoration: underline;
+  padding: 0;
+}
+
+.banner {
+  padding: 0.6rem 0.9rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.banner-error {
+  background: #fef3f2;
+  color: var(--danger);
+  border: 1px solid #fda29b;
+}
+
+.banner-success {
+  background: #ecfdf3;
+  color: var(--success);
+  border: 1px solid #6ce9a6;
+}
+
+.meta {
+  color: #667085;
+  font-size: 0.85rem;
+}
+
+.search-form {
+  flex-direction: row;
+  max-width: none;
+}
+
+.search-form input {
+  flex: 1;
+}
+
+.document-list,
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.document-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.comment-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.comment-body {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+table.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table.user-table th,
+table.user-table td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+table.user-table td button {
+  margin-right: 0.5rem;
+}
