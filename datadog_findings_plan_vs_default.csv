@@ -1,0 +1,119 @@
+filename,rule,category,severity,message,start_line,start_col,end_line,end_col
+gpt-5.5/apps/api/src/scripts/seed-admin.js,javascript-node-security/log-sensitive-data,security,warning,Do not log sensitive information,28,34,28,39
+gpt-5.5/apps/api/src/scripts/init-db.js,javascript-node-security/detect-non-literal-fs-filename,security,warning,"Found readFile from package ""node:fs"" with non literal first argument",10,22,10,53
+gpt-5.5-plan/server/src/db.js,javascript-node-security/detect-non-literal-fs-filename,security,warning,"Found readFile from package ""node:fs"" with non literal first argument",32,21,32,55
+gpt-5.5-plan/server/src/app.js,javascript-node-security/sql-injection,security,error,potential SQL injection,333,9,336,84
+gpt-5.5-plan/server/src/app.js,javascript-node-security/sql-injection,security,error,potential SQL injection,585,9,588,84
+composer-2.5-plan/server/src/services/auth.js,javascript-node-security/jwt-sensitive-data,security,warning,Do not include sensitive data,16,5,16,57
+composer-2.5-plan/server/src/services/mail.js,javascript-node-security/log-sensitive-data,security,warning,Do not log sensitive information,25,50,25,55
+sonnet-5/server/src/utils/tokens.js,javascript-node-security/jwt-sensitive-data,security,warning,Do not include sensitive data,7,5,7,57
+composer-2.5/frontend/src/main.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,89,5,89,20
+composer-2.5/frontend/src/pages/documents.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,20,3,20,22
+composer-2.5/frontend/src/pages/documents.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,39,9,39,25
+composer-2.5/frontend/src/pages/documents.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,48,7,48,23
+composer-2.5/frontend/src/pages/documents.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,74,7,74,23
+composer-2.5/frontend/src/pages/profile.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,9,5,9,24
+composer-2.5/frontend/src/pages/profile.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,70,9,70,26
+composer-2.5/frontend/src/pages/profile.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,76,5,76,24
+composer-2.5/frontend/src/pages/forgot-password.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,36,7,36,26
+composer-2.5/frontend/src/pages/forgot-password.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,39,7,39,24
+composer-2.5/frontend/src/pages/reset-password.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,58,7,58,26
+composer-2.5/frontend/src/pages/reset-password.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,61,7,61,24
+composer-2.5/frontend/src/pages/register.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,50,7,50,24
+composer-2.5/frontend/src/pages/upload.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,51,7,51,26
+composer-2.5/frontend/src/pages/upload.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,54,7,54,24
+composer-2.5/frontend/src/pages/login.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,47,7,47,24
+composer-2.5/frontend/src/pages/document-detail.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,34,5,34,24
+composer-2.5/frontend/src/pages/document-detail.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,72,9,72,59
+composer-2.5/frontend/src/pages/document-detail.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,92,5,92,24
+composer-2.5/frontend/src/pages/document-detail.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,131,9,131,59
+composer-2.5/frontend/src/pages/document-detail.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,144,7,144,23
+composer-2.5/frontend/src/pages/admin.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,22,5,22,24
+composer-2.5/frontend/src/pages/admin.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,100,5,100,24
+composer-2.5/frontend/src/pages/admin.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,107,5,107,17
+composer-2.5/frontend/src/pages/admin.js,javascript-browser-security/inner-outer-html,security,warning,Updating HTML elements directly may lead to XSS vulnerabilities,113,3,113,22
+composer-2.5/backend/src/middleware/auth.js,javascript-node-security/jwt-sensitive-data,security,warning,Do not include sensitive data,7,5,7,73
+composer-2.5/backend/src/index.js,javascript-express/missing-helmet,security,warning,Security misconfiguration detected (helmet missing),19,1,19,23
+composer-2.5/backend/src/index.js,javascript-express/default-session-config,security,warning,Session cookie with default config detected,32,3,41,5
+composer-2.5/backend/src/routes/auth.js,javascript-node-security/log-sensitive-data,security,warning,Do not log sensitive information,115,48,115,53
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+gpt-5.5/apps/web/src/pages/DocumentsPage.jsx,javascript-best-practices/no-alert,best_practices,notice,Unexpected confirm.,75,17,75,24
+gpt-5.5/apps/api/src/middleware/auth.js,javascript-best-practices/prefer-optional-chain,best_practices,none,Avoid chaining logical operators,24,9,24,33
+gpt-5.5/apps/api/src/middleware/error-handler.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,25,3,25,16
+gpt-5.5/apps/api/src/server.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,11,3,11,14
+gpt-5.5/apps/api/src/routes/auth.js,javascript-best-practices/prefer-optional-chain,best_practices,none,Avoid chaining logical operators,86,9,86,33
+gpt-5.5-plan/server/src/index.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,9,3,9,14
+gpt-5.5-plan/server/src/middleware.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,91,5,91,18
+gpt-5.5-plan/server/src/mailer.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,10,5,10,17
+gpt-5.5-plan/server/src/init-db.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,5,3,5,14
+sonnet-5-plan/frontend/src/api/client.js,javascript-best-practices/default-param-last,best_practices,warning,Avoid default parameters that aren't last,19,33,19,45
+sonnet-5-plan/frontend/src/pages/admin/AdminUsersPage.jsx,javascript-best-practices/no-alert,best_practices,notice,Unexpected confirm.,53,10,53,17
+sonnet-5-plan/backend/src/middleware/errorHandler.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,13,3,13,16
+sonnet-5-plan/backend/src/config/env.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,26,3,26,16
+sonnet-5-plan/backend/src/index.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,5,3,5,14
+sonnet-5-plan/backend/src/services/mail.service.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,32,5,32,16
+sonnet-5-plan/backend/src/services/mail.service.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,46,7,46,18
+sonnet-5-plan/backend/src/services/mail.service.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,49,5,49,18
+composer-2.5-plan/server/prisma/seed.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,32,3,32,14
+composer-2.5-plan/server/prisma/seed.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,37,5,37,18
+composer-2.5-plan/server/src/middleware/errorHandler.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,2,3,2,16
+composer-2.5-plan/server/src/index.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,37,3,37,14
+composer-2.5-plan/server/src/routes/auth.js,javascript-best-practices/prefer-optional-chain,best_practices,none,Avoid chaining logical operators,98,9,98,28
+composer-2.5-plan/server/src/routes/users.js,javascript-best-practices/prefer-optional-chain,best_practices,none,Avoid chaining logical operators,16,9,16,30
+composer-2.5-plan/server/src/services/auth.js,javascript-best-practices/prefer-optional-chain,best_practices,none,Avoid chaining logical operators,40,7,40,28
+composer-2.5-plan/server/src/services/mail.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,25,5,25,16
+composer-2.5-plan/client/src/pages/AdminUsers.jsx,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,49,7,49,12
+composer-2.5-plan/client/src/pages/Documents.jsx,javascript-best-practices/no-alert,best_practices,notice,Unexpected confirm.,45,17,45,24
+composer-2.5-plan/client/src/pages/Documents.jsx,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,50,7,50,12
+sonnet-5/server/src/middleware/errorHandler.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,6,3,6,16
+sonnet-5/server/src/db.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,14,3,14,16
+sonnet-5/server/src/index.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,14,3,14,16
+sonnet-5/server/src/index.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,19,3,19,16
+sonnet-5/server/src/index.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,25,3,25,14
+sonnet-5/server/src/utils/mailer.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,30,5,30,16
+sonnet-5/server/src/routes/auth.routes.js,javascript-best-practices/prefer-optional-chain,best_practices,none,Avoid chaining logical operators,98,9,98,33
+sonnet-5/server/src/routes/documents.routes.js,javascript-inclusive/comments,code_style,notice,string whitelist is discouraged,18,4,18,13
+sonnet-5/client/js/pages/documentDetail.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,41,21,41,26
+sonnet-5/client/js/pages/documentDetail.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected confirm.,117,18,117,25
+sonnet-5/client/js/pages/documentDetail.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,123,15,123,20
+sonnet-5/client/js/pages/admin.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,25,15,25,20
+sonnet-5/client/js/pages/admin.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,48,15,48,20
+sonnet-5/client/js/pages/admin.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected confirm.,61,18,61,25
+sonnet-5/client/js/pages/admin.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,66,15,66,20
+composer-2.5/frontend/src/pages/document-detail.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,76,9,76,14
+composer-2.5/frontend/src/pages/document-detail.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected confirm.,81,12,81,19
+composer-2.5/frontend/src/pages/document-detail.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,86,9,86,14
+composer-2.5/frontend/src/pages/document-detail.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected confirm.,127,12,127,19
+composer-2.5/frontend/src/pages/document-detail.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,134,9,134,14
+composer-2.5/frontend/src/pages/document-detail.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected alert.,162,11,162,16
+composer-2.5/frontend/src/pages/admin.js,javascript-best-practices/no-alert,best_practices,notice,Unexpected confirm.,90,14,90,21
+composer-2.5/backend/src/index.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,61,3,61,16
+composer-2.5/backend/src/index.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,66,3,66,14
+composer-2.5/backend/src/db/migrate.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,48,5,48,16
+composer-2.5/backend/src/db/migrate.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,56,3,56,16
+composer-2.5/backend/src/db/seed.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,21,5,21,16
+composer-2.5/backend/src/db/seed.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,22,5,22,16
+composer-2.5/backend/src/db/seed.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,23,5,23,16
+composer-2.5/backend/src/db/seed.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,24,5,24,16
+composer-2.5/backend/src/db/seed.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,32,3,32,16
+composer-2.5/backend/src/routes/documents.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,81,5,81,18
+composer-2.5/backend/src/routes/documents.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,102,5,102,18
+composer-2.5/backend/src/routes/documents.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,135,7,135,20
+composer-2.5/backend/src/routes/documents.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,161,5,161,18
+composer-2.5/backend/src/routes/documents.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,193,7,193,20
+composer-2.5/backend/src/routes/auth.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,38,5,38,18
+composer-2.5/backend/src/routes/auth.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,66,5,66,18
+composer-2.5/backend/src/routes/auth.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,88,5,88,18
+composer-2.5/backend/src/routes/auth.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,115,7,115,18
+composer-2.5/backend/src/routes/auth.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,120,5,120,18
+composer-2.5/backend/src/routes/auth.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,152,5,152,18
+composer-2.5/backend/src/routes/users.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,19,5,19,18
+composer-2.5/backend/src/routes/users.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,68,5,68,18
+composer-2.5/backend/src/routes/comments.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,20,5,20,18
+composer-2.5/backend/src/routes/comments.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,54,5,54,18
+composer-2.5/backend/src/routes/comments.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,84,5,84,18
+composer-2.5/backend/src/routes/comments.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,105,5,105,18
+composer-2.5/backend/src/routes/admin.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,16,5,16,18
+composer-2.5/backend/src/routes/admin.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,43,5,43,18
+composer-2.5/backend/src/routes/admin.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,78,5,78,18
+composer-2.5/backend/src/routes/admin.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,97,5,97,18
