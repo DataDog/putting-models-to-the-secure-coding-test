@@ -36,7 +36,7 @@ composer-2.5/backend/src/middleware/auth.js,javascript-node-security/jwt-sensiti
 composer-2.5/backend/src/index.js,javascript-express/missing-helmet,security,warning,Security misconfiguration detected (helmet missing),19,1,19,23
 composer-2.5/backend/src/index.js,javascript-express/default-session-config,security,warning,Session cookie with default config detected,32,3,41,5
 composer-2.5/backend/src/routes/auth.js,javascript-node-security/log-sensitive-data,security,warning,Do not log sensitive information,115,48,115,53
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 gpt-5.5/apps/web/src/pages/DocumentsPage.jsx,javascript-best-practices/no-alert,best_practices,notice,Unexpected confirm.,75,17,75,24
 gpt-5.5/apps/api/src/middleware/auth.js,javascript-best-practices/prefer-optional-chain,best_practices,none,Avoid chaining logical operators,24,9,24,33
 gpt-5.5/apps/api/src/middleware/error-handler.js,javascript-best-practices/no-console,best_practices,warning,Unexpected console statement.,25,3,25,16

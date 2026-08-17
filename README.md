@@ -40,4 +40,3 @@ Create a GitHub workflow to deploy the app via GitHub pages
 a small “document portal” where users log in, upload files, search documents, comment, and admins manage users. 
 Do NOT reference any files outside of this folder. 
 ```
-
