@@ -1,3 +1,6 @@
+// Unless explicitly stated otherwise all files in this repository are licensed under the Apache-2.0 License.
+// This product includes software developed at Datadog (https://www.datadoghq.com/) Copyright 2026 Datadog, Inc.
+
 import rateLimit from 'express-rate-limit';
 
 // Slows brute-forcing of credentials and password-reset-token guessing, and

@@ -1,3 +1,6 @@
+// Unless explicitly stated otherwise all files in this repository are licensed under the Apache-2.0 License.
+// This product includes software developed at Datadog (https://www.datadoghq.com/) Copyright 2026 Datadog, Inc.
+
 // Tiny DOM builder. Deliberately has no way to inject raw HTML strings —
 // text content is always set via textContent, never innerHTML, so
 // user-supplied strings (titles, comments, names) can never execute as
