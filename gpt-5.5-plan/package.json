@@ -17,5 +17,13 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "overrides": {
+    "vite": {
+      "postcss": {
+        "nanoid": "^3.3.18",
+        ".": "^8.5.28"
+      }
+    }
   }
 }
