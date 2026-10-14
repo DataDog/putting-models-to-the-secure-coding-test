@@ -1,0 +1,4 @@
+composer-2.5-security/backend/src/middleware/auth.js	javascript-node-security/jwt-sensitive-data	security	warning	Do not include sensitive data	7	5	7	57
+composer-2.5-security/backend/src/db/seed.js	javascript-node-security/log-sensitive-data	security	warning	Do not log sensitive information	16	34	16	39
+composer-2.5-security/backend/src/db/seed.js	javascript-node-security/log-sensitive-data	security	warning	Do not log sensitive information	24	41	24	46
+composer-2.5-security/backend/src/services/email.js	javascript-node-security/log-sensitive-data	security	warning	Do not log sensitive information	26	24	26	29
